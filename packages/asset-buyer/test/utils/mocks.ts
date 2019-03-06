@@ -1,4 +1,4 @@
-import { Web3ProviderEngine } from '@0x/subproviders';
+import { Web3ProviderEngine } from '@dexon-foundation/subproviders';
 import * as TypeMoq from 'typemoq';
 
 import { AssetBuyer } from '../../src/asset_buyer';

@@ -2,7 +2,7 @@ import { BigNumber } from '@0x/utils';
 
 export enum OrderError {
     InvalidSignature = 'INVALID_SIGNATURE',
-    InvalidMetamaskSigner = "MetaMask provider must be wrapped in a MetamaskSubprovider (from the '@0x/subproviders' package) in order to work with this method.",
+    InvalidMetamaskSigner = "MetaMask provider must be wrapped in a MetamaskSubprovider (from the '@dexon-foundation/subproviders' package) in order to work with this method.",
 }
 
 export enum TradeSide {

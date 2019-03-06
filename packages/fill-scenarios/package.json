@@ -33,7 +33,7 @@
         "@0x/contract-artifacts": "^1.3.0",
         "@0x/order-utils": "^6.0.1",
         "@0x/types": "^2.0.2",
-        "@0x/typescript-typings": "^4.0.0",
+        "@dexon-foundation/typescript-typings": "^4.0.0",
         "@0x/utils": "^4.0.3",
         "@0x/web3-wrapper": "^4.0.2",
         "ethereum-types": "^2.0.0",

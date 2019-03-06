@@ -45,7 +45,7 @@
     },
     "dependencies": {
         "@0x/json-schemas": "^3.0.2",
-        "@0x/typescript-typings": "^4.0.0",
+        "@dexon-foundation/typescript-typings": "^4.0.0",
         "@0x/utils": "^4.0.3",
         "lodash": "^4.17.11",
         "valid-url": "^1.0.9"

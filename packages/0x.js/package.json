@@ -1,5 +1,5 @@
 {
-    "name": "0x.js",
+    "name": "@dexon-foundation/0x.js",
     "version": "4.0.3",
     "engines": {
         "node": ">=6.12"
@@ -77,16 +77,15 @@
         "@0x/contract-wrappers": "^7.0.2",
         "@0x/order-utils": "^6.0.1",
         "@0x/order-watcher": "^3.0.3",
-        "@0x/subproviders": "^3.0.2",
         "@0x/types": "^2.0.2",
-        "@0x/typescript-typings": "^4.0.0",
         "@0x/utils": "^4.0.3",
         "@0x/web3-wrapper": "^4.0.2",
-        "@types/web3-provider-engine": "^14.0.0",
+        "@dexon-foundation/subproviders": "^3.0.2",
+        "@dexon-foundation/typescript-typings": "^4.0.2",
+        "@dexon-foundation/web3-provider-engine": "^14.1.1",
         "ethereum-types": "^2.0.0",
         "ethers": "~4.0.4",
-        "lodash": "^4.17.11",
-        "web3-provider-engine": "14.0.6"
+        "lodash": "^4.17.11"
     },
     "publishConfig": {
         "access": "public"

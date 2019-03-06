@@ -121,7 +121,7 @@ async function testInstallPackageAsync(
     await writeFileAsync(indexFilePath, `import * as Package from '${packageName}';\nconsole.log(Package);\n`);
     const tsConfig = {
         compilerOptions: {
-            typeRoots: ['node_modules/@0x/typescript-typings/types', 'node_modules/@types'],
+            typeRoots: ['node_modules/@dexon-foundation/typescript-typings/types', 'node_modules/@types'],
             module: 'commonjs',
             target: 'es5',
             lib: ['es2017', 'dom'],

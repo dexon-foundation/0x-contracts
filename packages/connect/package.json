@@ -48,7 +48,7 @@
         "@0x/json-schemas": "^3.0.2",
         "@0x/order-utils": "^6.0.1",
         "@0x/types": "^2.0.2",
-        "@0x/typescript-typings": "^4.0.0",
+        "@dexon-foundation/typescript-typings": "^4.0.0",
         "@0x/utils": "^4.0.3",
         "lodash": "^4.17.11",
         "query-string": "^6.0.0",

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { RPCSubprovider, Web3ProviderEngine } from '@0x/subproviders';
+import { RPCSubprovider, Web3ProviderEngine } from '@dexon-foundation/subproviders';
 import { logUtils } from '@0x/utils';
 import * as yargs from 'yargs';
 

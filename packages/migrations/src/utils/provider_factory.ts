@@ -1,4 +1,4 @@
-import { LedgerEthereumClient, LedgerSubprovider, RPCSubprovider, Web3ProviderEngine } from '@0x/subproviders';
+import { LedgerEthereumClient, LedgerSubprovider, RPCSubprovider, Web3ProviderEngine } from '@dexon-foundation/subproviders';
 import Eth from '@ledgerhq/hw-app-eth';
 // tslint:disable:no-implicit-dependencies
 import TransportNodeHid from '@ledgerhq/hw-transport-node-hid';

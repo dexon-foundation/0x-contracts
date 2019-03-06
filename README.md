@@ -76,7 +76,7 @@ Visit our [developer portal](https://0xproject.com/docs/order-utils) for a compr
 | [`@0x/sol-profiler`](/packages/sol-profiler) | [![npm](https://img.shields.io/npm/v/@0x/sol-profiler.svg)](https://www.npmjs.com/package/@0x/sol-profiler) | A solidity gas cost profiler                                                                                                                                                            |
 | [`@0x/sol-trace`](/packages/sol-trace)       | [![npm](https://img.shields.io/npm/v/@0x/sol-trace.svg)](https://www.npmjs.com/package/@0x/sol-trace)       | A solidity stack trace tool                                                                                                                                                             |
 | [`@0x/sol-resolver`](/packages/sol-resolver) | [![npm](https://img.shields.io/npm/v/@0x/sol-resolver.svg)](https://www.npmjs.com/package/@0x/sol-resolver) | Import resolver for smart contracts dependencies                                                                                                                                        |
-| [`@0x/subproviders`](/packages/subproviders) | [![npm](https://img.shields.io/npm/v/@0x/subproviders.svg)](https://www.npmjs.com/package/@0x/subproviders) | Web3 provider middlewares (e.g. LedgerSubprovider)                                                                                                                                      |
+| [`@dexon-foundation/subproviders`](/packages/subproviders) | [![npm](https://img.shields.io/npm/v/@dexon-foundation/subproviders.svg)](https://www.npmjs.com/package/@dexon-foundation/subproviders) | Web3 provider middlewares (e.g. LedgerSubprovider)                                                                                                                                      |
 | [`@0x/sol-doc`](/packages/sol-doc)           | [![npm](https://img.shields.io/npm/v/@0x/sol-doc.svg)](https://www.npmjs.com/package/@0x/sol-doc)           | Solidity documentation generator                                                                                                                                                        |
 
 #### Utilities
@@ -86,7 +86,7 @@ Visit our [developer portal](https://0xproject.com/docs/order-utils) for a compr
 | [`@0x/abi-gen`](/packages/abi-gen)                       | [![npm](https://img.shields.io/npm/v/@0x/abi-gen.svg)](https://www.npmjs.com/package/@0x/abi-gen)                       | Tool to generate TS wrappers from smart contract ABIs                        |
 | [`@0x/tslint-config`](/packages/tslint-config)           | [![npm](https://img.shields.io/npm/v/@0x/tslint-config.svg)](https://www.npmjs.com/package/@0x/tslint-config)           | Custom TSLint rules used by the 0x core team                                 |
 | [`@0x/types`](/packages/types)                           | [![npm](https://img.shields.io/npm/v/@0x/types.svg)](https://www.npmjs.com/package/@0x/types)                           | Shared type declarations                                                     |
-| [`@0x/typescript-typings`](/packages/typescript-typings) | [![npm](https://img.shields.io/npm/v/@0x/typescript-typings.svg)](https://www.npmjs.com/package/@0x/typescript-typings) | Repository of types for external packages                                    |
+| [`@dexon-foundation/typescript-typings`](/packages/typescript-typings) | [![npm](https://img.shields.io/npm/v/@dexon-foundation/typescript-typings.svg)](https://www.npmjs.com/package/@dexon-foundation/typescript-typings) | Repository of types for external packages                                    |
 | [`@0x/utils`](/packages/utils)                           | [![npm](https://img.shields.io/npm/v/@0x/utils.svg)](https://www.npmjs.com/package/@0x/utils)                           | Shared utilities                                                             |
 | [`@0x/react-docs`](/packages/react-docs)                 | [![npm](https://img.shields.io/npm/v/@0x/react-docs.svg)](https://www.npmjs.com/package/@0x/react-docs)                 | React documentation component for rendering TypeDoc & sol-doc generated JSON |
 | [`@0x/react-shared`](/packages/react-shared)             | [![npm](https://img.shields.io/npm/v/@0x/react-shared.svg)](https://www.npmjs.com/package/@0x/react-shared)             | 0x shared react components                                                   |
@@ -108,10 +108,10 @@ Visit our [developer portal](https://0xproject.com/docs/order-utils) for a compr
 Node version >= 6.12 is required.
 
 Most of the packages require additional typings for external dependencies.
-You can include those by prepending the `@0x/typescript-typings` package to your [`typeRoots`](http://www.typescriptlang.org/docs/handbook/tsconfig-json.html) config.
+You can include those by prepending the `@dexon-foundation/typescript-typings` package to your [`typeRoots`](http://www.typescriptlang.org/docs/handbook/tsconfig-json.html) config.
 
 ```json
-"typeRoots": ["node_modules/@0x/typescript-typings/types", "node_modules/@types"],
+"typeRoots": ["node_modules/@dexon-foundation/typescript-typings/types", "node_modules/@types"],
 ```
 
 ## Contributing

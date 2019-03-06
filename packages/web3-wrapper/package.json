@@ -56,7 +56,7 @@
     "dependencies": {
         "@0x/assert": "^2.0.2",
         "@0x/json-schemas": "^3.0.2",
-        "@0x/typescript-typings": "^4.0.0",
+        "@dexon-foundation/typescript-typings": "^4.0.0",
         "@0x/utils": "^4.0.3",
         "ethereum-types": "^2.0.0",
         "ethereumjs-util": "^5.1.1",

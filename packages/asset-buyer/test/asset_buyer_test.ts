@@ -1,5 +1,5 @@
 import { orderFactory } from '@0x/order-utils/lib/src/order_factory';
-import { Web3ProviderEngine } from '@0x/subproviders';
+import { Web3ProviderEngine } from '@dexon-foundation/subproviders';
 import { SignedOrder } from '@0x/types';
 import { BigNumber } from '@0x/utils';
 import { Web3Wrapper } from '@0x/web3-wrapper';

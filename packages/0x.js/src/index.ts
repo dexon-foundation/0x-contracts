@@ -64,7 +64,7 @@ export {
 
 export { OrderWatcher, OnOrderStateChangeCallback, OrderWatcherConfig } from '@0x/order-watcher';
 
-export import Web3ProviderEngine = require('web3-provider-engine');
+export import Web3ProviderEngine = require('@dexon-foundation/web3-provider-engine');
 
 export {
     RPCSubprovider,
@@ -72,7 +72,7 @@ export {
     JSONRPCRequestPayloadWithMethod,
     ErrorCallback,
     MetamaskSubprovider,
-} from '@0x/subproviders';
+} from '@dexon-foundation/subproviders';
 
 export { AbiDecoder, DecodedCalldata } from '@0x/utils';
 

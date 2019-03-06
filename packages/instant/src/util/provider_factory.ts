@@ -1,4 +1,4 @@
-import { EmptyWalletSubprovider, RPCSubprovider, Web3ProviderEngine } from '@0x/subproviders';
+import { EmptyWalletSubprovider, RPCSubprovider, Web3ProviderEngine } from '@dexon-foundation/subproviders';
 import { Provider } from 'ethereum-types';
 import * as _ from 'lodash';
 

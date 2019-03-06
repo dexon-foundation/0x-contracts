@@ -1,6 +1,6 @@
 import { ContractAddresses } from '@0x/contract-addresses';
 import { BlockchainLifecycle, callbackErrorReporter } from '@0x/dev-utils';
-import { EmptyWalletSubprovider, Web3ProviderEngine } from '@0x/subproviders';
+import { EmptyWalletSubprovider, Web3ProviderEngine } from '@dexon-foundation/subproviders';
 import { DoneCallback } from '@0x/types';
 import { BigNumber } from '@0x/utils';
 import * as chai from 'chai';

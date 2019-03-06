@@ -4,7 +4,7 @@ import {
     GanacheSubprovider,
     RPCSubprovider,
     Web3ProviderEngine,
-} from '@0x/subproviders';
+} from '@dexon-foundation/subproviders';
 import * as fs from 'fs';
 import * as _ from 'lodash';
 

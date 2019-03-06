@@ -71,7 +71,7 @@
         "@0x/contracts-exchange-libs": "1.0.2",
         "@0x/contracts-utils": "2.0.1",
         "@0x/types": "^2.0.2",
-        "@0x/typescript-typings": "^4.0.0",
+        "@dexon-foundation/typescript-typings": "^4.0.0",
         "@0x/utils": "^4.0.3",
         "@0x/web3-wrapper": "^4.0.2",
         "ethereum-types": "^2.0.0",

@@ -1,5 +1,5 @@
 import { getContractAddressesForNetworkOrThrow } from '@0x/contract-addresses';
-import { RPCSubprovider, Web3ProviderEngine } from '@0x/subproviders';
+import { RPCSubprovider, Web3ProviderEngine } from '@dexon-foundation/subproviders';
 import * as _ from 'lodash';
 
 import { OrderWatcherWebSocketServer } from './order_watcher/order_watcher_web_socket_server';

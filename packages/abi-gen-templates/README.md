@@ -10,7 +10,7 @@ To successfully compile the generated TypeScript contract wrappers, you must:
 "compilerOptions": {
   "lib": ["ES2015"],
   "typeRoots": [
-    "node_modules/@0x/typescript-typings/types",
+    "node_modules/@dexon-foundation/typescript-typings/types",
     "node_modules/@types"
   ]
 }
