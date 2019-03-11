@@ -16,7 +16,44 @@
 
 */
 pragma solidity ^0.4.24;
+pragma experimental ABIEncoderV2;
+
+import "@0x/contracts-exchange-libs/contracts/src/LibOrder.sol";
+import "@0x/contracts-exchange-libs/contracts/src/LibFillResults.sol";
 
 
 contract IOrderbook {
+
+    /// @dev Place a limit order into orderbook.
+    /// @param order Order struct containing order specifications.
+    /// @return Amounts filled and fees paid by maker and taker.
+    function placeLimitOrder(
+        LibOrder.Order memory order
+    )
+        public
+        returns (LibFillResults.FillResults memory fillResults);
+
+    /// @dev Fill orders in orderbook that match desired specifications.
+    ///      But unlike 'placeLimitOrder', remaining amount will not be put into orderbook.
+    /// @param order Order struct containing order specifications.
+    /// @return Amounts filled and fees paid by maker and taker.
+    function placeMarketOrder(
+        LibOrder.Order memory order
+    )
+        public
+        returns (LibFillResults.FillResults memory fillResults);
+
+    /// @dev Get a list of valid orders on orderbook of a specific pair.
+    /// @param makerAssetData Maker asset data of the pair.
+    /// @param takerAssetData Taker asset data of the pair.
+    /// @param limit Maximum number of orders to be returned.
+    /// @return Orders of the pair, sorted by price.
+    function getOrders(
+        bytes makerAssetData,
+        bytes takerAssetData,
+        uint8 limit
+    )
+        public
+        view
+        returns (LibOrder.Order[] memory orders);
 }
