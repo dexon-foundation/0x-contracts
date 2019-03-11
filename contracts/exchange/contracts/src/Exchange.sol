@@ -26,6 +26,7 @@ import "./MixinWrapperFunctions.sol";
 import "./MixinAssetProxyDispatcher.sol";
 import "./MixinTransactions.sol";
 import "./MixinMatchOrders.sol";
+import "./MixinOrderbook.sol";
 
 
 // solhint-disable no-empty-blocks
@@ -35,9 +36,10 @@ contract Exchange is
     MixinSignatureValidator,
     MixinTransactions,
     MixinAssetProxyDispatcher,
-    MixinWrapperFunctions
+    MixinWrapperFunctions,
+    MixinOrderbook
 {
-    string constant public VERSION = "2.0.1-alpha";
+    string constant public VERSION = "2.1.0-alpha";
 
     // Mixins are instantiated in the order they are inherited
     constructor (bytes memory _zrxAssetData)
@@ -49,5 +51,6 @@ contract Exchange is
         MixinTransactions()
         MixinAssetProxyDispatcher()
         MixinWrapperFunctions()
+        MixinOrderbook()
     {}
 }
