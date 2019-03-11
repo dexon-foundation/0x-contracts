@@ -25,5 +25,9 @@ import "./mixins/MOrderbook.sol";
 contract MixinOrderbook is
     MOrderbook
 {
+    // Mapping of orderHash => orderHash of the next order down the sorted linked list
+    mapping (bytes32 => bytes32) public next;
 
+    // Mapping of makerAssetData => takerAssetData => orderHash of the order with highest bid
+    mapping (bytes => mapping(bytes => bytes32)) public highestBid;
 } 
